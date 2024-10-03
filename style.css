@@ -1,7 +1,6 @@
 ﻿*{
 	margin:0;
 	padding:0;
-	font-family:Amarula Personal Use;
 	font-size:24px;
 	box-sizing:border-box;
 	overflow:hidden;
@@ -9,17 +8,18 @@
 .image-container{
 	height:100vh;
 	width:100vw;
-	background-color:blue;
+	padding:2%;
 	display:flex;
+	background-color:black;
 	justify-content:center;
 	align-items:center;
 }
 .img-1,.img-2,.img-3,.img-4,.img-5,.img-6{
 	height:100%;
 	width:50%;
-	background-color:red;
-	border:2px solid white;
-	border-radius:50px;
+	margin:0 10px;
+	background-color:gray;
+	border-radius:25px;
 	transition:all 0.3s;
 	display:flex;
 	flex:1;
@@ -27,34 +27,35 @@
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
-
 	
-
+	
 	&:hover{
-		width:100%;
+		
 		#top{
 			transform:translateY(10%);
-			font-size:4.5rem;
-		}
-		#bot{
-			transform:translateY(-10%);
-			font-size:5.5rem;
+			font-size:4.2rem;
 		}
 		#mid{
 			transform:scale(100%);
 			font-size:4.5rem;
+			
 		}
-		
+		#bot{
+			transform:translateY(-10%);
+			font-size:4.2rem;
+		}
 	}
 	&:active{
 		flex:80%;
-		
 	}
+	
 }
+
 .img-1{
 	background-image:url("one.jpg");
 	background-size:cover;
 }
+
 .img-2{
 	background-image:url("two.jpg");
 	background-size:cover;
@@ -71,13 +72,14 @@
 	background-image:url("five.jpg");
 	background-size:cover;
 }
+
 .img-6{
 	background-image:url("six.jpg");
 	background-size:cover;
 }
 
 #top,#mid,#bot{
-	font-size:3.5rem;
+	font-size:4rem;
 	color:white;
 	height:100%;
 	width:50%;
@@ -86,16 +88,19 @@
 	align-items:center;
 	pointer-events:none;
 	transition:all 0.3s;
-	/*user-select:none;
-	cursor:default;*/
+	user-select:none;
+	
 }
 
 #top{
 	transform:translateY(-100%);
-}
-#bot{
-	transform:translateY(100%);
+	font-family:reem kufi,Arial,Sans serif;
 }
 #mid{
 	transform:scale(50%);
+	font-family:godofwar,Arial,Sans serif;
+}
+#bot{
+	transform:translateY(100%);
+	font-family:reem kufi,Arial,Sans serif;
 }
