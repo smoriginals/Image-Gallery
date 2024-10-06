@@ -37,7 +37,7 @@
 		}
 		#mid{
 			transform:scale(100%);
-			font-size:4.5rem;
+			font-size:4rem;
 			
 		}
 		#bot{
@@ -79,7 +79,7 @@
 }
 
 #top,#mid,#bot{
-	font-size:4rem;
+	font-size:3.5rem;
 	color:white;
 	height:100%;
 	width:50%;
@@ -94,13 +94,13 @@
 
 #top{
 	transform:translateY(-100%);
-	font-family:reem kufi,Arial,Sans serif;
+	font-family:reem kufi,Arial,Microsoft Sans serif;
 }
 #mid{
 	transform:scale(50%);
-	font-family:godofwar,Arial,Sans serif;
+	font-family:godofwar,Arial,Microsoft Sans serif;
 }
 #bot{
 	transform:translateY(100%);
-	font-family:reem kufi,Arial,Sans serif;
+	font-family:reem kufi,Arial,Microsoft Sans serif;
 }
