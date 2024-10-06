@@ -37,7 +37,7 @@
 		}
 		#mid{
 			transform:scale(100%);
-			font-size:4rem;
+			font-size:4.5rem;
 			
 		}
 		#bot{
@@ -89,7 +89,6 @@
 	pointer-events:none;
 	transition:all 0.3s;
 	user-select:none;
-	
 }
 
 #top{
@@ -99,6 +98,7 @@
 #mid{
 	transform:scale(50%);
 	font-family:Microsoft Sans serif;
+	font-weight:bold;
 }
 #bot{
 	transform:translateY(100%);
