@@ -94,13 +94,13 @@
 
 #top{
 	transform:translateY(-100%);
-	font-family:reem kufi,Arial,Microsoft Sans serif;
+	font-family:Microsoft Sans serif;
 }
 #mid{
 	transform:scale(50%);
-	font-family:godofwar,Arial,Microsoft Sans serif;
+	font-family:Microsoft Sans serif;
 }
 #bot{
 	transform:translateY(100%);
-	font-family:reem kufi,Arial,Microsoft Sans serif;
+	font-family:Microsoft Sans Serif;
 }
