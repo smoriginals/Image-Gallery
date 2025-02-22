@@ -1,1 +1,1 @@
-[OPEN IN BROWSER](https://smos-github.github.io/Image-Gallery/)
+[OPEN IN BROWSER](https://smoriginals.github.io/Image-Gallery/)
